@@ -1,0 +1,21 @@
+Day 1 Data Quality Summary
+
+Files Analyzed:
+1. fund_master.csv
+2. nav_history.csv
+3. SBI_Bluechip.csv
+4. ICICI_Bluechip.csv
+5. Nippon_Large_Cap.csv
+6. Axis_Bluechip.csv
+7. Kotak_Bluechip.csv
+
+Observations:
+- All CSV files loaded successfully.
+- No missing values found.
+- NAV datasets contain date and nav columns.
+- fund_master.csv contains scheme metadata.
+- Data types are valid for analysis.
+- Data is ready for further processing and visualization.
+
+Conclusion:
+The dataset passed initial quality checks and is suitable for analysis.
