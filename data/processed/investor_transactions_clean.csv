@@ -1,0 +1,6 @@
+investor_id,fund_code,transaction_type,amount,transaction_date,kyc_status,state
+1,125497,SIP,5000,2026-01-10,VERIFIED,Andhra Pradesh
+2,119551,LUMPSUM,10000,2026-02-15,VERIFIED,Telangana
+3,120503,REDEMPTION,2000,2026-03-20,PENDING,Karnataka
+4,118632,SIP,3000,2026-04-25,VERIFIED,Tamil Nadu
+5,120841,LUMPSUM,15000,2026-05-30,REJECTED,Kerala

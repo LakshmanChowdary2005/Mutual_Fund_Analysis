@@ -38,7 +38,9 @@ CREATE TABLE fact_performance (
     performance_id INTEGER PRIMARY KEY,
     fund_id INTEGER,
     date_id INTEGER,
-    return_percentage REAL,
+    return_1y REAL,
+    return_3y REAL,
+    return_5y REAL,
     expense_ratio REAL,
     FOREIGN KEY (fund_id) REFERENCES dim_fund(fund_id),
     FOREIGN KEY (date_id) REFERENCES dim_date(date_id)
