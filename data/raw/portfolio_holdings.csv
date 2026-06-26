@@ -1,0 +1,16 @@
+fund_name,sector,weight
+SBI Small Cap,IT,18
+SBI Small Cap,Banking,22
+SBI Small Cap,Healthcare,15
+ICICI Bluechip,IT,20
+ICICI Bluechip,Banking,25
+ICICI Bluechip,FMCG,12
+HDFC Top 100,IT,17
+HDFC Top 100,Energy,18
+HDFC Top 100,Automobile,14
+Axis Bluechip,Banking,23
+Axis Bluechip,IT,16
+Axis Bluechip,Pharma,11
+Kotak Bluechip,IT,19
+Kotak Bluechip,Banking,24
+Kotak Bluechip,FMCG,13

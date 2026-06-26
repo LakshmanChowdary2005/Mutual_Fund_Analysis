@@ -1,0 +1,11 @@
+age_group,gender,state,city_tier,sip_amount
+18-25,Male,Andhra Pradesh,T30,3000
+18-25,Female,Telangana,B30,3500
+26-35,Male,Karnataka,T30,5000
+26-35,Female,Tamil Nadu,T30,4500
+36-45,Male,Maharashtra,T30,7000
+36-45,Female,Kerala,B30,6000
+46-60,Male,Gujarat,T30,8000
+46-60,Female,Delhi,T30,7500
+60+,Male,Odisha,B30,4000
+60+,Female,Punjab,B30,3800

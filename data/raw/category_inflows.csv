@@ -1,0 +1,25 @@
+month,category,inflow
+Jan,Large Cap,2500
+Jan,Mid Cap,1800
+Jan,Small Cap,2200
+Jan,Hybrid,1200
+Feb,Large Cap,2700
+Feb,Mid Cap,1900
+Feb,Small Cap,2400
+Feb,Hybrid,1300
+Mar,Large Cap,2800
+Mar,Mid Cap,2100
+Mar,Small Cap,2500
+Mar,Hybrid,1400
+Apr,Large Cap,3000
+Apr,Mid Cap,2300
+Apr,Small Cap,2700
+Apr,Hybrid,1500
+May,Large Cap,3200
+May,Mid Cap,2500
+May,Small Cap,2900
+May,Hybrid,1700
+Jun,Large Cap,3400
+Jun,Mid Cap,2600
+Jun,Small Cap,3100
+Jun,Hybrid,1800
