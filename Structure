@@ -1,0 +1,26 @@
+mutual_fund_analysis/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── dashboard/
+│   └── bluestock_mf_dashboard.pbix
+│
+├── reports/
+│   ├── Final_Report.pdf
+│   ├── Presentation.pptx
+│   └── advanced/
+│
+├── sql/
+│   ├── schema.sql
+│   └── queries.sql
+│
+├── EDA_Analysis.ipynb
+├── Performance_Analytics.ipynb
+├── Advanced_Analytics.ipynb
+├── etl_pipeline.py
+├── recommender.py
+├── README.md
+├── requirements.txt
+└── LICENSE

@@ -1,26 +1,39 @@
 import pandas as pd
 import os
 
+# Create processed folder
 os.makedirs("data/processed", exist_ok=True)
 
+# Read transactions file
 df = pd.read_csv("data/raw/investor_transactions.csv")
 
-df["transaction_type"] = df["transaction_type"].str.upper()
+# Remove duplicate header row if present
+df = df[df["investor_id"] != "investor_id"]
 
+# Remove leading/trailing spaces
+df.columns = df.columns.str.strip()
+
+# Convert amount to numeric
+df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
+
+# Convert transaction date
 df["transaction_date"] = pd.to_datetime(
     df["transaction_date"],
-    format="%d-%m-%Y"
+    format="%d-%m-%Y",
+    errors="coerce"
 )
 
-df = df[df["amount"] > 0]
+# Remove rows with invalid values
+df = df.dropna(subset=["transaction_date", "amount"])
 
-valid_kyc = ["VERIFIED", "PENDING", "REJECTED"]
+# Reset index
+df = df.reset_index(drop=True)
 
-df = df[df["kyc_status"].isin(valid_kyc)]
-
+# Save cleaned file
 df.to_csv(
     "data/processed/investor_transactions_clean.csv",
     index=False
 )
 
-print("Transactions cleaned successfully")
+print("Transactions cleaned successfully!")
+print(df.head())
